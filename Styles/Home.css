@@ -477,26 +477,30 @@ figcaption {
 }
 
 .container .card:nth-child(3) {
-  background-color: #30243c;
-}
-
-.container .card:nth-child(4) {
-  background-color: rgb(20, 20, 20);
-}
-
-.container .card:nth-child(5) {
-  background-color: #082404;
-}
-
-.container .card:nth-child(6) {
-  background-color: #280c4c;
-}
-
-.container .card:nth-child(7) {
   background-color: #500404;
 }
 
+.container .card:nth-child(5) {
+  background-color: #30243c;
+}
+
+.container .card:nth-child(6) {
+  background-color: rgb(20, 20, 20);
+}
+
+.container .card:nth-child(7) {
+  background-color: #082404;
+}
+
 .container .card:nth-child(8) {
+  background-color: #280c4c;
+}
+
+.container .card:nth-child(9) {
+  background-color: #500404;
+}
+
+.container .card:nth-child(10) {
   background-color: #282464;
 }
 
