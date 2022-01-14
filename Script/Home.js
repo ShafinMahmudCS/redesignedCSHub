@@ -70,6 +70,7 @@ const elts = {
 };
 
 const texts = [
+  "",
   "EAT",
   "SLEEP",
   "CODE",
