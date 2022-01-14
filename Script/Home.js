@@ -83,10 +83,9 @@ const texts = [
   "MOCK INTERVIEWS",
   "RESUME REVIEW",
   "WAIT!",
-  "WAIT!",
   "WE ALSO ARRANGE",
   "FUN ACTIVITIES",
-  "SO",
+  ":)",
 ];
 
 const morphTime = 1;
