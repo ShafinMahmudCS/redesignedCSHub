@@ -5,7 +5,8 @@
 }
 
 body {
-  background: url(https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif);
   overflow-x: hidden;
   font-family: "IBM Plex Sans", sans-serif;
   animation: fadein 2s;
