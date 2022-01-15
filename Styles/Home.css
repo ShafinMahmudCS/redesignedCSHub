@@ -625,10 +625,18 @@ footer i:hover {
 #facebook,
 #reddit,
 #discord,
-#insta {
+#insta,
+#git {
   color: #ffffff;
 }
 
+#git {
+  padding-left: 1%;
+}
+
+#git i:hover {
+  transform: scale(1.4);
+}
 /*Responsive*/
 
 @media screen and (max-width: 708px) {
