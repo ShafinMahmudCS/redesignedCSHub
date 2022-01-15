@@ -526,6 +526,53 @@ figcaption {
   font-size: 1.2vw;
 }
 
+#resource {
+  width: 100%;
+}
+
+.title {
+  color: #ff9900;
+  text-align: center;
+}
+
+.resourcePara {
+  text-align: center;
+}
+
+.resourceLink {
+  text-decoration: none;
+  color: white;
+}
+
+.text {
+  color: #c0c0c0;
+  text-align: center;
+}
+
+#w3schools {
+  text-decoration: none;
+  color: #005f3b;
+  background-color: #c0c0c0;
+  border-radius: 10px;
+  padding: 0.4%;
+}
+
+#codingBat {
+  text-decoration: none;
+  color: #7a208c;
+  background-color: #c0c0c0;
+  border-radius: 10px;
+  padding: 0.4%;
+}
+
+#speechify {
+  text-decoration: none;
+  color: #2434fc;
+  background-color: #c0c0c0;
+  border-radius: 10px;
+  padding: 0.4%;
+}
+
 /*footer*/
 
 footer {
