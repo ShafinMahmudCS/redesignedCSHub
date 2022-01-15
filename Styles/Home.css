@@ -617,6 +617,7 @@ footer i:hover {
   .navigation a:hover {
     color: white;
     background: #24292e;
+    margin-right: 55%;
   }
 
   .scroll a:hover {
