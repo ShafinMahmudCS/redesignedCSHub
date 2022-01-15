@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url(https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif);
   overflow-x: hidden;
   font-family: "IBM Plex Sans", sans-serif;
@@ -36,12 +36,11 @@ body {
   opacity: 0.85;
   position: absolute;
   height: 100%;
-  width: 78%;
-  background-color: #2b3137;
+  width: 70%;
+  background-color: #23282c;
   transform: skewX(-2.5deg) translateX(-15%);
-  border-radius: 10px;
-  border: 5px solid #737cadc9;
-  box-shadow: 70px 70px 78px #3a5ea0c9;
+  border: 3px solid #616161;
+  box-shadow: 60px 60px 68px #1b2d4dc9;
 }
 
 /* Welcome */
@@ -52,8 +51,9 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  font-size: 5.1vw;
-  padding-left: 6%;
+  text-align: center;
+  font-size: 4.1vw;
+
   animation: h1 1.8s;
   text-shadow: 2px 0 rgb(0, 0, 0), -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0),
     0 -2px rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0),
@@ -78,9 +78,10 @@ h1 {
 
 /*auto messages*/
 h2 {
-  font-size: 3vw;
+  font-size: 2.2vw;
   margin-top: 3%;
   padding-top: 3%;
+  margin-left: 10%;
   color: #ffcc66;
   text-shadow: 3px 3px 8px rgba(145, 40, 40, 0.548);
 }
@@ -95,9 +96,9 @@ h2 {
   background: #b33e3e;
   color: #565f2d;
   box-sizing: border-box;
-  width: 70%;
+  width: 60%;
   margin-top: 13%;
-  margin-left: 10%;
+  margin-left: 20%;
   border-radius: 20px;
   border: 3px solid #0f0f0f;
   box-shadow: 4px 4px 4px 4px #0f0f0f;
@@ -105,7 +106,7 @@ h2 {
 
 h6 {
   color: #202020;
-  font-size: 2vw;
+  font-size: 1.7vw;
   font-weight: bold;
   padding: 1% 1% 1% 1%;
   font-family: monospace;
@@ -140,10 +141,12 @@ h6:hover span {
 
   h1 {
     font-size: 8vw;
+    text-shadow: none;
   }
 
   h2 {
     font-size: 6vw;
+    margin-left: 5%;
   }
 
   h6 {

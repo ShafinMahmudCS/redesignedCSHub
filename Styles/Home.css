@@ -838,6 +838,10 @@ footer i:hover {
     margin: 0;
     padding: 0;
   }
+
+  .end {
+    font-size: 3vw;
+  }
 }
 
 @media screen and (max-width: 300px) {
