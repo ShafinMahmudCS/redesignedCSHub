@@ -8,7 +8,7 @@ var loader = setInterval(function () {
 //Scroller
 const nav = document.querySelector('.navigation');
 $(document).ready(function(){
-  $("a").on('click', function(event) {
+  $("a.navItems").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
       var hash = this.hash;
