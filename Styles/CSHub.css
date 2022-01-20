@@ -39,7 +39,7 @@ body {
   width: 70%;
   background-color: #23282c;
   transform: skewX(-2.5deg) translateX(-15%);
-  border: 3px solid #616161;
+  border: 3px solid #3d3d3d;
   box-shadow: 60px 60px 68px #1b2d4dc9;
 }
 
@@ -108,7 +108,7 @@ h6 {
   color: #202020;
   font-size: 1.7vw;
   font-weight: bold;
-  padding: 1% 1% 1% 1%;
+  padding: 1%;
   font-family: monospace;
   letter-spacing: 5px;
   cursor: pointer;
@@ -130,13 +130,67 @@ h6:hover span {
 }
 
 /*Responsive*/
+
+@media screen and (max-width: 968px) {
+  .content {
+    padding: 17% 8% 0 5%;
+  }
+
+  .cta {
+    margin-top: 25%;
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 6vw;
+    text-shadow: none;
+  }
+
+  h2 {
+    font-size: 4vw;
+    margin-left: 5%;
+  }
+
+  h6 {
+    font-size: 3vw;
+    padding: 2%;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .content {
+    padding: 20% 8% 0 5%;
+  }
+
+  .cta {
+    margin-top: 25%;
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 6vw;
+    text-shadow: none;
+  }
+
+  h2 {
+    font-size: 4vw;
+    margin-left: 5%;
+  }
+
+  h6 {
+    font-size: 3vw;
+    padding: 2%;
+  }
+}
+
+@media screen and (max-width: 568px) {
   .content {
     padding: 30% 8% 0 5%;
   }
 
   .cta {
     margin-top: 25%;
+    width: 70%;
   }
 
   h1 {
@@ -151,6 +205,7 @@ h6:hover span {
 
   h6 {
     font-size: 4vw;
+    padding: 2%;
   }
 }
 
