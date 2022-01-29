@@ -477,31 +477,39 @@ figcaption {
   color: white;
 }
 
-.container .card:nth-child(3) {
-  background-color: #500404;
-}
-
-.container .card:nth-child(5) {
-  background-color: #30243c;
-}
-
-.container .card:nth-child(6) {
+.card-9 {
   background-color: rgb(20, 20, 20);
 }
 
-.container .card:nth-child(7) {
-  background-color: #082404;
+.card-8 {
+  background-color: #141c3c;
 }
 
-.container .card:nth-child(8) {
-  background-color: #280c4c;
-}
-
-.container .card:nth-child(9) {
+.card-7 {
   background-color: #500404;
 }
 
-.container .card:nth-child(10) {
+.card-6 {
+  background-color: #30243c;
+}
+
+.card-5 {
+  background-color: rgb(20, 20, 20);
+}
+
+.card-4 {
+  background-color: #082404;
+}
+
+.card-3 {
+  background-color: #280c4c;
+}
+
+.card-2 {
+  background-color: #500404;
+}
+
+.card-1 {
   background-color: #282464;
 }
 
